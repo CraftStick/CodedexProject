@@ -1,18 +1,22 @@
-# 🖼️ GIF Generator in Python
+# GIF Generator in Python
 
-This project creates a simple animated GIF using two PNG images as input frames.
+[English](README.md) · [Русский](README.ru.md)
 
----
+A Python script that combines two PNG images into an animated GIF.
 
-## 📁 Files
+## Getting Started
 
-- `creat_a_gif.py` – Python script that combines PNG images into a single animated `.gif`
-- `image1.png`, `image2.png` – frames used for the animation
-- `team.gif` – final result
+Requires Python 3 and `imageio`: `pip install imageio`.
 
----
-
-## ▶️ How to Run
+## Usage
 
 ```bash
+cd VSCodeMacPython
 python3 creat_a_gif.py
+```
+
+## Project Structure
+
+- `VSCodeMacPython/creat_a_gif.py` — script that builds the GIF
+- `VSCodeMacPython/image1.png`, `image2.png` — animation frames
+- `VSCodeMacPython/team.gif` — the result
